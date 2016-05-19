@@ -23,7 +23,6 @@ onReady = function() {
 };
 
 app.run(function($rootScope, $state, $timeout, $transitions) {
-  $state.
   $transitions.onError({to: () => true }, ($error$, $state) => {
     console.log($error$);
   });
